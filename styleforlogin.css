@@ -1,0 +1,47 @@
+.body {
+    margin: 0;
+    overflow: hidden; /* Optional: Remove default margin and allow full-screen overlay */
+
+    
+  }
+
+
+
+.Wallpaper {
+    mix-blend-mode: multiply;
+    background: linear-gradient(#7581f0, rgb(78, 32, 76));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+    
+    }
+
+.Overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}    
+
+.Overlay img {
+      width:6000px;
+      height: 3300px;
+      border-radius:100px;
+      
+
+
+}
+
+.LoginWindow {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center;
+  align-items: center;
+  color: #e66465;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(136, 13, 13, 0.8); /* Use rgba for transparency */
+  z-index: 1;
+  }
